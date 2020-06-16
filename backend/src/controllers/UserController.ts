@@ -15,7 +15,7 @@ export default {
     const emailService = new EmailService();
     
     emailService.sendMail({
-      to: { 
+      to: {
         name: 'Jeziel', 
         office: 'Mobile Developer' 
       },
